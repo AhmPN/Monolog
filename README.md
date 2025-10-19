@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+
 <html lang="id">
 <head>
     <meta charset="UTF-8">
@@ -143,7 +143,7 @@
         <h1> Kota Tanpa Buku</h1></h1>        
         <div class="video-container">
             <iframe 
-                src="https://youtu.be/RcYBESkpfMs?si=IKZENN-CbZqXzDhZ" 
+                src="https://youtu.be/RcYBESkpfMs?si=pMxp7NoApJqkmCDS" 
                 title="Video Pembelajaran" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                 allowfullscreen>
