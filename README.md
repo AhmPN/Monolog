@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="id">
 <head>
     <meta charset="UTF-8">
@@ -56,7 +56,7 @@
             padding: 30px;
             border-radius: 8px;
             box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-        }        
+        }      
         /* Kontainer Video */
         .video-container {
             margin-bottom: 25px;
@@ -134,13 +134,13 @@
 <body>
     <div id="intro-page">
         <div class="intro-box">
-            <h1>Selamat Datang!</h1>
-            <p>Apakah Anda siap untuk menonton video pembelajaran?</p>
-            <button class="yes-button" onclick="openVideoPage()">Ya, Tonton Sekarang</button>
+            <h1>Bhs.Indonesia</h1>
+            <h3>Video Monolog</h3>
+            <button class="yes-button" onclick="openVideoPage()">Tonton Sekarang</button>
         </div>
     </div>
     <div id="video-page">
-        <h1>Video Materi Terbaru</h1>        
+        <h1>Selamat Menonton</h1>       
         <div class="video-container">
             <iframe 
                 src="https://www.youtube.com/embed/RcYBESkpfMs" 
@@ -149,24 +149,27 @@
                 allowfullscreen>
             </iframe>
         </div>       
-        <p>Silakan tonton video di atas, dan berikan tanggapan, pertanyaan, atau masukan Anda di formulir bawah ini.</p>
+        <p>Youtube= Ahmad Putra N</p>
+        <p>Nama= Ahmad Putra Nurrohim</p>
+        <p>Kelas= 9B</p>
+        <p>Sekolah= SMPN 1 Pangkalan Lada</p>
         <section class="comment-section">
-            <h2>Kirim Komentar/Masukan Anda</h2>           
+            <h2>Kirim Komentar/Masukan Anda</h2>        
             <form action="https://formsubmit.co/ahmadputra.nur31@GMAIL.COM" method="POST" class="comment-form">    
                 <label for="name-input">Nama Lengkap:</label>
-                <input type="text" id="name-input" name="Nama Pengirim" required>                
+                <input type="text" id="name-input" name="Nama Pengirim" required>             
                 <label for="comment-input">Tulis Pesan/Komentar:</label>
                 <textarea id="comment-input" name="Komentar" required rows="5"></textarea>                
                 <input type="hidden" name="_captcha" value="false"> 
                 <input type="hidden" name="_template" value="table"> 
                 <input type="hidden" name="_subject" value="[KOMENTAR BARU] dari Website Video"> 
-                <input type="hidden" name="_next" value="https://formsubmit.co/thankyou.html">                
+                <input type="hidden" name="_next" value="https://formsubmit.co/thankyou.html">               
                 <button type="submit">
                     Kirim Komentar 📧
                 </button>
             </form>
             <p class="note">
-                *Komentar Anda akan dikirimkan ke email administrator (**ahmadputra.nur31@GMAIL.COM**) untuk ditinjau.
+                Designed | Putra
             </p>
         </section>
     </div>
